@@ -1,0 +1,47 @@
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/mixins';
+
+@import 'components/buttons';
+
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'pages/home';
+
+
+.container {
+    max-width: calc(100% - 4rem);
+    margin: 0 2rem;
+
+    @media (min-width: $breakpoint-tablet) {
+        width: $breakpoint-tablet;
+        margin: 0 auto;
+        background-color: aqua;
+    }
+
+    @media (min-width: $breakpoint-laptop) {
+        width: $breakpoint-laptop;
+        margin: 0 auto;
+        background-color: brown;
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+        width: $breakpoint-desktop;
+        margin: 0 auto;
+        background-color: cadetblue;
+    }
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.space-between{
+    justify-content: space-between;
+}

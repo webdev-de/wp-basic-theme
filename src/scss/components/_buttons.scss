@@ -1,0 +1,18 @@
+
+$btn_color: $primary-color;
+
+.btn {
+    background: green;
+
+    @media (min-width: $breakpoint-tablet) {
+        background-color: $btn_color;
+    }
+
+    @media (min-width: $breakpoint-laptop) {
+        background-color: aquamarine;
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+        background-color: blueviolet;
+    }
+}

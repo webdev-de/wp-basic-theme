@@ -1,0 +1,17 @@
+// Colors
+
+$primary-color: #333;
+$secondary-color: #999;
+$accent-color: #ffcc00;
+
+// Fonts
+
+// Media Breakpoint
+$breakpoint-tablet: 48rem; // 768PX
+$breakpoint-laptop: 64rem; // 1024PX
+$breakpoint-desktop: 80rem; // 1280PX
+/*
+@media (min-width: $breakpoint-tablet) { }
+@media (min-width: $breakpoint-laptop) { }
+@media (min-width: $breakpoint-desktop) { }
+*/

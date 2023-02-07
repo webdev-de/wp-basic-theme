@@ -1,0 +1,22 @@
+@import '../components/header-menu';
+
+.main_header {
+    height: 10rem;
+}
+
+.header_logo {
+    max-width: 20rem;
+    max-height: 4rem;
+    border: 1px solid black;
+    display: flex;
+
+    a {
+        border: 1px solid green;
+
+        img {
+            width: 100%;
+            height: auto;
+            background-color: rgba(0, 0, 0, .3);
+        }
+    }
+}
