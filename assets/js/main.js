@@ -5,5 +5,5 @@ const menuButton = document.querySelector('.menu-button');
 const menuContainer = document.querySelector('.menu-container ul');
 
 menuButton.addEventListener('click', () => {
-  menuContainer.classList.toggle('menu-open');
+  menuContainer.classList.toggle('open');
 });
