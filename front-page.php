@@ -8,7 +8,8 @@ get_header();
         <header class="main_header">
             <div class="container flex-row space-between">
                 <div class="header_logo"><?php mwd_get_logo(); ?></div>
-                <div class="menu-container"><?php mwd_menu("primary_menu"); ?></div>
+                <div class="menu-container"> <button class="menu-button">Öffnen</button>
+                    <?php mwd_menu("primary_menu"); ?></div>
             </div>
         </header>
     <?php else : ?>
@@ -27,7 +28,6 @@ get_header();
 
 
             <div>
-
                 <button class="btn">TEST</button>
             </div>
 
